@@ -5,7 +5,7 @@ from deBoor import  deBoor
 points = np.array([[i, m.sin(i)] for i in range(0, 11)])
 knots = np.array([0, 0, 0, 0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 1.0, 1.0, 1.0, 1.0])
 p = 3
-cant_divisiones = 100
+cant_divisiones = 10
 X = []
 Y = []
 trazadores = []

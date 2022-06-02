@@ -10,7 +10,7 @@ def deBoor(k, x, t, c, p):
     c: array of control points
     p: degree of B-spline
     """
-    d = [c[j + k - p] for j in range(0, p+1)]
+    d = [c[j + k - p] for j in range(0, p+1)] #Desakjdlasjd
 
     for r in range(1, p+1):
         for j in range(p, r-1, -1):
