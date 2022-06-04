@@ -1,0 +1,7 @@
+Definir interfaz
+Crear repositorio para el manejo de datos
+  - manejar excepciones en el acceso a disco
+    Como manejar las excepciones?
+
+Crear repositorio para guardar imagenes en disco? Quizas para el siguiente Sprint
+Probar el programa con una herramienta externa
