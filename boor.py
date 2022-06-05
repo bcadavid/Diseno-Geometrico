@@ -30,15 +30,13 @@ class Boor:
 
     def calcularPuntosEnIntervalo(self, k, x, t, c, p):
         """
-        Evaluates S(x).
-
-        Args
+        Argumentos
         ----
-        k: index of knot interval that contains x
-        x: position
-        t: array of knot positions, needs to be padded as described above
-        c: array of control points
-        p: degree of B-spline
+        k: indice del intervalo del nodo que contiene a x
+        x: posicion
+        t: matriz de posiciones de nodos
+        c: matriz de puntos de control
+        p: grado del B-spline
         """
         d = [c[j + k - p] for j in range(0, p+1)]
 
